@@ -3,8 +3,8 @@ import json
 
 class TreeNode:
     def __init__(self, v=None):
-        self.data = v #当前节点的值
-        self.childs = [] # 孩子节点，如果没有孩子，则为空list
+        self.data = v 
+        self.childs = [] 
 
 def is_leaf_list(node_list):
     if isinstance(node_list,dict):
@@ -53,13 +53,13 @@ def tree2dict(root):
         ret[key] = tree2dict(root.childs)
     return ret
 
-# node 当前节点， tree原始的森林，cb 叶子节点操作的回调函数
+
 def traverse(node, tree, cb):
     if not node:
         return
     if isinstance(node, TreeNode):
         if isinstance(node.data, tuple):
-            cb(node, tree)# 叶子节点操作callback
+            cb(node, tree)
             return 
         for child in node.childs:
             traverse(child,  tree, cb)
@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
     def callback(leaf,tree):
         former = leaf.data
-        leaf.data = (leaf.data[0], 'yyy') #用cb修改叶子节点
+        leaf.data = (leaf.data[0], 'yyy') 
         print(tree2dict(tree))
-        leaf.data = former     #输出完在改回去
+        leaf.data = former     
     traverse(tree, tree, callback)

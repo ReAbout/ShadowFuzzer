@@ -239,11 +239,10 @@ class JsonMutator:
         data_json = json.loads(data)
         json_tree = dict2tree(data_json)
         tmp_mutation_list =[]
-        #添加个null情况
+        #null
         tmp_mutation_list.append("")
-        #yield ""
         def callback(leaf,tree):
-            #白名单
+            #white list
             if leaf.data[0] not in FILTER_LIST:
                 former = leaf.data
                 mutation_list =  self.get_payload(leaf.data[1])
@@ -263,7 +262,6 @@ class JsonMutator:
                     a = type(tmp_dict)
                     payload = json.dumps(tmp_dict)
                     tmp_mutation_list.append(payload)
-                    #yield payload
                     leaf.data = former     
         
         traverse(json_tree, json_tree, callback)
