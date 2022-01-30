@@ -31,8 +31,8 @@ The discovered vulnerability information is saved separately: `LOGGER_PATH = "da
 ## Description of Mutator
 The payload of the MQTT protocol PUBLISH control packet is mutated.
 Setps：  
-1. Determine the data format of Paylaod (JSON，String，Binary)
-2. The payload of JSON format mutation。Recursively identify the type of the value of each item (Int，Float，String，Array), and processed according to different mutation rules。    
+1. Determine the data format of paylaod.
+2. The payload of JSON format mutation. Recursively identify the type of the value of each item (Int，Float，String，Array), and processed according to different mutation rules.    
 
 Types of Vulnerabilities Detected：   
 * Command injection (Parameter injection)  
