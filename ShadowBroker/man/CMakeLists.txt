@@ -1,5 +1,0 @@
-install(FILES mosquitto_passwd.1 mosquitto_pub.1 mosquitto_sub.1 mosquitto_rr.1 DESTINATION ${CMAKE_INSTALL_MANDIR}/man1)
-install(FILES libmosquitto.3 DESTINATION ${CMAKE_INSTALL_MANDIR}/man3)
-install(FILES mosquitto.conf.5 DESTINATION ${CMAKE_INSTALL_MANDIR}/man5)
-install(FILES mosquitto-tls.7 mqtt.7 DESTINATION ${CMAKE_INSTALL_MANDIR}/man7)
-install(FILES mosquitto.8 DESTINATION ${CMAKE_INSTALL_MANDIR}/man8)
