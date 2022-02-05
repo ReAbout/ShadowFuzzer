@@ -1,0 +1,61 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 6 (0x6)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=GB, ST=Derbyshire, O=Mosquitto Project, OU=Testing, CN=Signing CA
+        Validity
+            Not Before: Sep 10 09:33:43 2019 GMT
+            Not After : Sep  8 09:33:43 2024 GMT
+        Subject: C=GB, ST=Nottinghamshire, L=Nottingham, O=Server, OU=Production, CN=test client encrypted
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (1024 bit)
+                Modulus:
+                    00:b2:3b:8d:2d:d4:22:ee:5f:ea:f5:e5:eb:46:a5:
+                    10:0c:98:68:9f:d3:e1:bd:63:ca:e0:78:49:7c:54:
+                    96:49:a3:18:d6:a2:85:1e:7e:c1:65:3c:ba:14:93:
+                    ff:1c:6f:43:f9:43:30:32:04:23:92:2f:1a:9f:a5:
+                    f4:31:a1:d6:fd:b0:65:f6:e9:77:81:64:b6:2e:6e:
+                    00:71:da:0b:78:22:82:ba:e9:40:bb:a4:43:68:a1:
+                    28:b3:02:69:97:f9:21:55:c8:80:5c:8a:73:41:db:
+                    4f:a4:0e:8a:52:45:a4:a4:d7:9a:8c:9b:c0:7c:b6:
+                    ec:dd:78:eb:93:c3:d2:f1:b5
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                12:37:21:26:74:8E:0E:22:74:95:FF:92:EC:7F:D7:3C:20:C9:B3:55
+            X509v3 Authority Key Identifier: 
+                keyid:EA:BE:42:EF:98:17:84:D5:FC:28:89:5A:4B:A5:B6:41:4F:7B:BB:28
+
+    Signature Algorithm: sha256WithRSAEncryption
+         54:e6:ae:58:21:74:be:ac:e8:0a:3e:da:4e:87:56:05:c2:51:
+         a8:6a:0c:83:dc:89:30:b8:3f:38:83:18:ed:4a:ce:d7:1d:0e:
+         62:a7:eb:ec:97:4e:cc:db:c0:1d:12:c6:82:47:a7:a1:e7:1a:
+         b5:c0:2e:cf:a6:1b:d3:56:a9:f4:69:48:7d:f1:79:de:36:da:
+         31:93:06:85:27:be:e8:94:57:64:ee:c9:fd:8e:d3:b1:65:19:
+         c7:d9:c0:6f:0e:bc:e5:92:09:b4:1f:4a:c6:59:20:15:3f:d3:
+         8d:52:08:15:d0:e2:4f:71:c3:cc:b7:1e:20:1a:a3:ac:52:86:
+         17:a4
+-----BEGIN CERTIFICATE-----
+MIIC2TCCAkKgAwIBAgIBBjANBgkqhkiG9w0BAQsFADBlMQswCQYDVQQGEwJHQjET
+MBEGA1UECAwKRGVyYnlzaGlyZTEaMBgGA1UECgwRTW9zcXVpdHRvIFByb2plY3Qx
+EDAOBgNVBAsMB1Rlc3RpbmcxEzARBgNVBAMMClNpZ25pbmcgQ0EwHhcNMTkwOTEw
+MDkzMzQzWhcNMjQwOTA4MDkzMzQzWjCBgjELMAkGA1UEBhMCR0IxGDAWBgNVBAgM
+D05vdHRpbmdoYW1zaGlyZTETMBEGA1UEBwwKTm90dGluZ2hhbTEPMA0GA1UECgwG
+U2VydmVyMRMwEQYDVQQLDApQcm9kdWN0aW9uMR4wHAYDVQQDDBV0ZXN0IGNsaWVu
+dCBlbmNyeXB0ZWQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALI7jS3UIu5f
+6vXl60alEAyYaJ/T4b1jyuB4SXxUlkmjGNaihR5+wWU8uhST/xxvQ/lDMDIEI5Iv
+Gp+l9DGh1v2wZfbpd4Fkti5uAHHaC3gigrrpQLukQ2ihKLMCaZf5IVXIgFyKc0Hb
+T6QOilJFpKTXmoybwHy27N1465PD0vG1AgMBAAGjezB5MAkGA1UdEwQCMAAwLAYJ
+YIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1Ud
+DgQWBBQSNyEmdI4OInSV/5Lsf9c8IMmzVTAfBgNVHSMEGDAWgBTqvkLvmBeE1fwo
+iVpLpbZBT3u7KDANBgkqhkiG9w0BAQsFAAOBgQBU5q5YIXS+rOgKPtpOh1YFwlGo
+agyD3IkwuD84gxjtSs7XHQ5ip+vsl07M28AdEsaCR6eh5xq1wC7PphvTVqn0aUh9
+8XneNtoxkwaFJ77olFdk7sn9jtOxZRnH2cBvDrzlkgm0H0rGWSAVP9ONUggV0OJP
+ccPMtx4gGqOsUoYXpA==
+-----END CERTIFICATE-----

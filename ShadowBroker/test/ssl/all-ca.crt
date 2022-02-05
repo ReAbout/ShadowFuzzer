@@ -1,0 +1,75 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=GB, ST=Derbyshire, L=Derby, O=Mosquitto Project, OU=Testing, CN=Root CA
+        Validity
+            Not Before: Sep 10 09:33:42 2019 GMT
+            Not After : Sep  8 09:33:42 2024 GMT
+        Subject: C=GB, ST=Derbyshire, O=Mosquitto Project, OU=Testing, CN=Signing CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (1024 bit)
+                Modulus:
+                    00:e3:39:bc:07:48:ed:c3:d2:3e:4f:a0:61:9a:2b:
+                    e9:46:7a:68:33:52:01:1b:7f:45:88:49:05:85:fd:
+                    30:8c:2e:60:17:77:b3:38:c3:06:7c:fc:87:a8:61:
+                    29:03:86:07:20:8f:f8:d2:f0:bb:66:93:33:91:37:
+                    ed:f6:64:b7:46:a5:f6:7d:f7:94:98:52:bc:78:90:
+                    6d:0b:db:61:c6:00:23:79:c2:a6:3b:2b:ee:c7:3d:
+                    96:97:9b:4e:eb:78:56:95:52:13:d4:5f:ea:18:85:
+                    18:0a:d6:d9:cd:4b:b0:15:ef:2f:f0:27:ef:b1:af:
+                    d2:4f:ca:b8:93:c1:2f:2e:4f
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                EA:BE:42:EF:98:17:84:D5:FC:28:89:5A:4B:A5:B6:41:4F:7B:BB:28
+            X509v3 Authority Key Identifier: 
+                keyid:CF:F3:9D:BB:BF:2B:14:D5:A2:E5:EC:41:CF:9C:16:D0:4D:AB:84:04
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+    Signature Algorithm: sha256WithRSAEncryption
+         0f:7d:4c:71:ef:5e:5d:a2:0e:09:da:37:bd:21:77:73:77:b1:
+         02:7e:56:7d:82:c0:b9:53:77:c3:bb:9b:08:cf:00:b3:73:18:
+         2d:c5:9c:1a:57:8c:2b:46:21:bf:28:2e:f4:6d:12:6a:c3:7f:
+         8c:c6:a5:9b:bf:ed:47:cd:88:58:94:35:1f:5c:1e:a7:0d:17:
+         96:5f:1b:70:ad:da:05:26:0c:52:d1:87:52:3c:e3:e1:23:ac:
+         aa:fa:f3:80:48:52:30:da:59:e2:de:0c:61:95:3c:63:ef:1d:
+         ec:b3:6d:c7:89:e6:e3:65:6c:be:d4:e7:a7:90:8c:f4:ff:1d:
+         65:72
+-----BEGIN CERTIFICATE-----
+MIICnTCCAgagAwIBAgIBATANBgkqhkiG9w0BAQsFADByMQswCQYDVQQGEwJHQjET
+MBEGA1UECAwKRGVyYnlzaGlyZTEOMAwGA1UEBwwFRGVyYnkxGjAYBgNVBAoMEU1v
+c3F1aXR0byBQcm9qZWN0MRAwDgYDVQQLDAdUZXN0aW5nMRAwDgYDVQQDDAdSb290
+IENBMB4XDTE5MDkxMDA5MzM0MloXDTI0MDkwODA5MzM0MlowZTELMAkGA1UEBhMC
+R0IxEzARBgNVBAgMCkRlcmJ5c2hpcmUxGjAYBgNVBAoMEU1vc3F1aXR0byBQcm9q
+ZWN0MRAwDgYDVQQLDAdUZXN0aW5nMRMwEQYDVQQDDApTaWduaW5nIENBMIGfMA0G
+CSqGSIb3DQEBAQUAA4GNADCBiQKBgQDjObwHSO3D0j5PoGGaK+lGemgzUgEbf0WI
+SQWF/TCMLmAXd7M4wwZ8/IeoYSkDhgcgj/jS8LtmkzORN+32ZLdGpfZ995SYUrx4
+kG0L22HGACN5wqY7K+7HPZaXm07reFaVUhPUX+oYhRgK1tnNS7AV7y/wJ++xr9JP
+yriTwS8uTwIDAQABo1AwTjAdBgNVHQ4EFgQU6r5C75gXhNX8KIlaS6W2QU97uygw
+HwYDVR0jBBgwFoAUz/Odu78rFNWi5exBz5wW0E2rhAQwDAYDVR0TBAUwAwEB/zAN
+BgkqhkiG9w0BAQsFAAOBgQAPfUxx715dog4J2je9IXdzd7ECflZ9gsC5U3fDu5sI
+zwCzcxgtxZwaV4wrRiG/KC70bRJqw3+MxqWbv+1HzYhYlDUfXB6nDReWXxtwrdoF
+JgxS0YdSPOPhI6yq+vOASFIw2lni3gxhlTxj7x3ss23HiebjZWy+1OenkIz0/x1l
+cg==
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+MIICvTCCAiagAwIBAgIUCq9EuGevQyFmQpXhKjTK8l6q2VYwDQYJKoZIhvcNAQEL
+BQAwcjELMAkGA1UEBhMCR0IxEzARBgNVBAgMCkRlcmJ5c2hpcmUxDjAMBgNVBAcM
+BURlcmJ5MRowGAYDVQQKDBFNb3NxdWl0dG8gUHJvamVjdDEQMA4GA1UECwwHVGVz
+dGluZzEQMA4GA1UEAwwHUm9vdCBDQTAeFw0xOTA5MTAwOTMzNDJaFw0yOTA5MDcw
+OTMzNDJaMHIxCzAJBgNVBAYTAkdCMRMwEQYDVQQIDApEZXJieXNoaXJlMQ4wDAYD
+VQQHDAVEZXJieTEaMBgGA1UECgwRTW9zcXVpdHRvIFByb2plY3QxEDAOBgNVBAsM
+B1Rlc3RpbmcxEDAOBgNVBAMMB1Jvb3QgQ0EwgZ8wDQYJKoZIhvcNAQEBBQADgY0A
+MIGJAoGBAOGwkYR+cUbrn3AGkbdFImPx4tnYIsqT+MwGDNmQ33Q4Ng9ZwEJhsT2C
+qGl0Txsj1HLo3goAFU/lZcvedtLT3sZKw1Jamwc7SS3H15Et9Ne9kQczaLekr74d
+NpRWvgJMy3+YkBHsB04vFA45ruc4F7UnpljaovJ4sVadx0FyWdxbAgMBAAGjUDBO
+MB0GA1UdDgQWBBTP8527vysU1aLl7EHPnBbQTauEBDAfBgNVHSMEGDAWgBTP8527
+vysU1aLl7EHPnBbQTauEBDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4GB
+ABRmECRQbiR9m27Qg8x8Auwus2xdxZTlKz2n8WV1HN8jE2b22g9kqAcamqcQXWYU
+JklO18dNdpI2rpJa/rSi/Wcakp2STUnV03kqw7IZWyzCaDNZLRWWDHqsJhH91jzv
+jFOhj81GLFVsAwsiTMV2FFk9XzYVpiV2syC7EgFvtjzH
+-----END CERTIFICATE-----
