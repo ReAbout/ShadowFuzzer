@@ -17,3 +17,9 @@ exploit messages to the target devices to trigger the vulnerabilities when proce
 
 ## How to use?
 
+### Build ShadowBroker
+
+First build the [ShadowBroker](./ShadowBroker/README.md) and make the device (subscriber) to connect to the ShadowBroker by DNS redirection or other tricks.
+
+### Fuzzing
+Boot the [fuzzer](./Fuzzer/README.md)
