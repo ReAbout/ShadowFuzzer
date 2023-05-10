@@ -15,12 +15,12 @@ python3 message_recoreder.py -i 192.168.0.1 -p 1883
 1. Modify the configuration information of `config.py` according to the broker information.      
 2. Mutate Data. Take samples from the data database (`DB_PATH = "data/data.db"`) for mutation and save to `tmp.db`.  
 ```
-python3 mqttfuzzer.py -m 
+python3 fuzzer.py -m 
 ```
 3. Start the ShadowBroker.
-4. Start fuzz. Set the start `task_id`, and start it again after stopping.   
+4. Start fuzz. Set the start `task_id` by `-f`, and start it again after stopping.   
 ```
-python3 mqttfuzzer.py -f 1
+python3 fuzzer.py -f 1
 ```
 
 Supported mutation strategies: default,simple
